@@ -150,6 +150,7 @@ ol {
   width: 19px;
   height: 19px;
   border: 1px solid #fff;
+  cursor: pointer;
 }
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   content: "";
@@ -159,9 +160,7 @@ ol {
   inline-size: 15px;
   block-size: 15px;
 }
-.search-form__pseudo-checkbox {
-  cursor: pointer;
-}
+
 .search-form__pseudo-checkbox:active {
   content: "";
   display: block;
@@ -173,9 +172,7 @@ ol {
 .search-form__label-text:hover {
   text-decoration: underline;
 }
-.search-form__textfield:focus {
-  outline: none;
-}
+
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
   outline-offset: 1px;
