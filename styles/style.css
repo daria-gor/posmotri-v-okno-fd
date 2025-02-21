@@ -141,7 +141,7 @@ ol {
 
 .search-form__fieldset-title {
   margin-bottom: 5px;
-  font-family: Fira Sans Condensed, sans-serif;
+  font-family: inherit;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
@@ -206,7 +206,7 @@ ol {
   border: 1px solid currentColor;
   padding: 6px 0;
   color: inherit;
-  font-family: Fira Sans Condensed;
+  font-family: inherit;
   font-weight: 700;
   font-size: 18px;
   line-height: 22px;
@@ -241,6 +241,14 @@ ol {
   block-size: 100%;
 }
 
+.more-button {
+  width: 392px;
+}
+
+.content__list {
+  margin-bottom: 30px;
+}
+
 .content__list-item {
   padding: 0 3px;
 }
@@ -264,7 +272,7 @@ ol {
   margin-bottom: 3px;
   overflow: hidden;
   color: #fff;
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 30px;
@@ -278,7 +286,7 @@ ol {
   display: -webkit-box;
   overflow: hidden;
   color: #fff;
-  font-family: Fira Sans Condensed, sans-serif;
+  font-family: inherit;
   font-weight: 400;
   font-size: 18px;
   line-height: 17px;
@@ -344,5 +352,3 @@ ol {
   object-fit: cover;
   object-position: center;
 }
-
-
